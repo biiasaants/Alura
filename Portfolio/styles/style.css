@@ -6,6 +6,8 @@
     --cor-01: #000;
     --cor-02: #f6f6f6;
     --cor-03: #22D4FD;
+    --fonteparagrafo: 'Noto Sans Display', 'sans-serif';
+    --fontetitulo: 'Source Code Pro', monospace;
 }
 
 body{
@@ -25,7 +27,7 @@ body{
 }
 .cabecalho__menu__a{
     font-size: 20px;
-    font-family: 'Noto Sans Display',  sans-serif;
+    font-family: var(--fonteparagrafo);
     font-weight: bold;
     color: var(--cor-03);
 }
@@ -55,10 +57,10 @@ body{
     gap: 40px;
 }
 
-.conteudo__texto__titulo{
+.conteudo__texto__paragrafo{
     font-size: 36px;
     font-weight: bold;
-    font-family: 'Source Code Pro', monospace;
+    font-family: var(--fontetitulo);
 }
 
 strong{
@@ -67,7 +69,7 @@ strong{
 
 .conteudo__texto__paragrafo{
     font-size: 24px;
-    font-family: 'Noto Sans Display',  sans-serif;
+    font-family: var(--fonteparagrafo);
     line-height: 1.2em;
 }
 
@@ -82,11 +84,11 @@ strong{
 .conteudo__link__titulo{
     font-size: 24px;
     font-weight: bold;
-    font-family: 'Noto Sans Display', sans-serif;
+    font-family: var(--fonteparagrafo);
 }
 
 .conteudo__link_a{
-    font-family: 'Noto Sans Display', sans-serif;
+    font-family: var(--fonteparagrafo);
     font-weight: bold;
     color: var(--cor-02);
     border: 2px solid var(--cor-03);
@@ -120,11 +122,55 @@ img{
     img{max-width: 305px;}
 }
 
+/* FORMULARIO */
+
+.conteudo__formulario{
+    max-width: 615px;
+    margin: auto;
+    padding: 50px;
+}
+
+.conteudo__formulario__titulo{
+    font-size: 36px;
+    font-family: var(--fontetitulo);
+    }
+
+.conteudo__formulario__form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 300px;
+}
+
+.conteudo__formulario__label{
+    font-size: 24px;
+    font-family: var(--fonteparagrafo);
+}
+
+.conteudo__formulario__input{
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.conteudo__formulario__button{
+    width: 150px;
+    height: 35px;
+    margin-top: 10px;
+    font-family: var(--fonteparagrafo);
+    background-color: var(--cor-02);
+    border: 1px solid var(--cor-03);
+}
+
+.conteudo__formulario__button:hover{
+    background-color: var(--cor-01);
+    color: var(--cor-03);
+}
+
 /* FOOTER */
 .rodape{
     background-color: var(--cor-03);
     color: var(--cor-01);
-    font-family: 'Noto Sans Display', sans-serif;
+    font-family: var(--fonteparagrafo);
     text-align: center;
     padding: 20px;
 }

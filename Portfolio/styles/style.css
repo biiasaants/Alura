@@ -71,6 +71,7 @@ strong{
     font-size: 24px;
     font-family: var(--fonteparagrafo);
     line-height: 1.2em;
+    text-align: justify;
 }
 
 .conteudo__link{
@@ -118,12 +119,11 @@ img{
     .conteudo__texto__titulo{font-size: 24px; width: 350px; text-align: center; padding-top: 10px;}
     .conteudo__texto__paragrafo{font-size: 16px; width: 350px; text-align: center; line-height: 1em;}
     .conteudo__link__titulo{font-size: 19px;}
-    .conteudo__link_a{font-size: 16px;padding: 10px 0;}
+    .conteudo__link_a{font-size: 16px;padding: 10px 0; width: 320px;}
     img{max-width: 305px;}
 }
 
 /* FORMULARIO */
-
 .conteudo__formulario{
     max-width: 615px;
     margin: auto;

@@ -57,7 +57,7 @@ body{
     gap: 40px;
 }
 
-.conteudo__texto__paragrafo{
+.conteudo__texto__titulo{
     font-size: 36px;
     font-weight: bold;
     font-family: var(--fontetitulo);
@@ -150,6 +150,13 @@ img{
 .conteudo__formulario__input{
     height: 25px;
     margin-bottom: 10px;
+    border: 5px solid var(--cor-03);
+    border-radius: 8px;
+}
+
+.conteudo__formulario__textarea{
+    border: 5px solid var(--cor-03);
+    border-radius: 8px;
 }
 
 .conteudo__formulario__button{

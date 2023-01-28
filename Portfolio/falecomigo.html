@@ -18,17 +18,14 @@
         </nav>
     </header>
     <main class="conteudo__formulario">
-            <h1 class="conteudo__formulario__titulo">Fale Comigo</h1>
+            <legend class="conteudo__formulario__titulo">Fale Comigo</legend>
             <hr>
             <form class="conteudo__formulario__form">
-                <label class="conteudo__formulario__label" for="nome">Nome</label>
-                <input class="conteudo__formulario__input" type="text" id="nome">
-                <label class="conteudo__formulario__label" for="E-mail">E-mail</label>
-                <input class="conteudo__formulario__input" type="text" id="E-mail">
-                <label class="conteudo__formulario__label"  for="Telefone">Telefone</label>
-                <input class="conteudo__formulario__input" type="text" id="Telefone">
+                <label class="conteudo__formulario__label" for="nome">Nome <input class="conteudo__formulario__input" type="text" id="nome" required></label>
+                <label class="conteudo__formulario__label" for="E-mail">E-mail <input class="conteudo__formulario__input" type="email" id="E-mail" required placeholder="exemplo@email.com"></label>
+                <label class="conteudo__formulario__label"  for="Telefone">Telefone <input class="conteudo__formulario__input" type="tel" id="Telefone" required placeholder="(DDD) 99999-9999"></label>
                 <label class="conteudo__formulario__label"  for="Falemais">Me conta mais sobre o seu projeto:</label>
-                <textarea class="conteudo__formulario__textarea" type="text" id="Falemais" rows="15" cols="20"></textarea>
+                <textarea class="conteudo__formulario__textarea" type="text" id="Falemais" rows="15" cols="20" required></textarea>
                 <button class="conteudo__formulario__button" value="submit"> Enviar Formulário</button>
             </form>
     </main>

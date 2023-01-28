@@ -36,7 +36,7 @@ body{
     color: var(--cor-02);
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 450px){
     .cabecalho{padding: 3%;}
     .cabecalho__menu{display: flex; justify-content: end; gap: 40px;}
     .cabecalho__menu__a{font-size: 16px;}
@@ -112,11 +112,11 @@ img{
     max-width: 400px;
 }
 
-@media screen and (max-width: 480px){
-    .conteudo{display: flex; flex-direction: column; padding: 20px; justify-content: center; max-width: 430px; gap: 30px;}
+@media screen and (max-width: 450px){
+    .conteudo{display: flex; flex-direction: column; padding: 20px; justify-content: center; max-width: 400px; gap: 30px;}
     .conteudo__texto {max-width: 430px; padding: 0px 15px;}
-    .conteudo__texto__titulo{font-size: 24px; width: 400px; text-align: center; padding-top: 10px;}
-    .conteudo__texto__paragrafo{font-size: 16px; width: 400px; text-align: center; line-height: 1em;}
+    .conteudo__texto__titulo{font-size: 24px; width: 350px; text-align: center; padding-top: 10px;}
+    .conteudo__texto__paragrafo{font-size: 16px; width: 350px; text-align: center; line-height: 1em;}
     .conteudo__link__titulo{font-size: 19px;}
     .conteudo__link_a{font-size: 16px;padding: 10px 0;}
     img{max-width: 305px;}
@@ -171,6 +171,11 @@ img{
 .conteudo__formulario__button:hover{
     background-color: var(--cor-01);
     color: var(--cor-03);
+}
+
+@media screen and (max-width: 450px){
+    .conteudo__formulario__titulo{font-size: 24px;}
+    .conteudo__formulario__label{font-size: 16px;}
 }
 
 /* FOOTER */

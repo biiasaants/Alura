@@ -1,0 +1,71 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 5em;
+}
+
+.cabecalho__logomarca{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.cabecalho__logomarca__logo{
+    width: 6em;
+}
+
+.cabecalho__logomarca__hydra{
+    width: 4em;
+}
+
+.cabecalho__menu{
+    font-family: var(--fonte);
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho__menu__link{
+    color: var(--branco);
+    text-transform: uppercase;
+    justify-content: space-between;
+}
+
+.cabecalho__menu__link:hover{
+    color: var(--destaque);
+}
+
+.cabecalho__botoes__01{
+    background-color: transparent;
+    color: var(--branco);
+    border: 1px solid var(--branco);
+    border-radius: 40px;
+    width: 150px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+
+.cabecalho__botoes__01:hover{
+    background: var(--gradientebotao);
+    color: var(--roxoescuro);
+    border: none;
+}
+
+.botao{
+    background: var(--gradientebotao);
+    color: var(--roxoescuro);
+    border: none;
+    border-radius: 40px;
+    width: 150px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+}

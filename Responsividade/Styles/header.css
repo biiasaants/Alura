@@ -44,6 +44,10 @@
 
 }
 
+.lista-menu__item:hover{
+    background-color: var(--fundo);
+}
+
 .lista-menu__titulo{
     color: var(--laranja);
     font-family: var(--fonte);
@@ -58,6 +62,5 @@
     background-clip: text;
     font-family: var(--fonte);
     text-transform: uppercase;
-
 }
 

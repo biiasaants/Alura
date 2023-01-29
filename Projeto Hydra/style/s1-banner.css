@@ -1,7 +1,7 @@
 .banner{
     display: flex;
     align-items: center;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .banner__bloco1{
@@ -48,7 +48,7 @@ strong{
     align-items: center;
     margin: auto;
     padding: 5px;
-    margin-top: 20px;
+    margin-top: 3em;
 }
 
 .informaçoes img{

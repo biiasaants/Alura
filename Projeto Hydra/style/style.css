@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url(../style/header.css);
 @import url(../style/s1-banner.css);
+@import url(../style/introducao.css);
 
 :root{
     --branco: #FFFFFF;
@@ -22,7 +23,7 @@ body{
 main{
     background-image: url(../imagens/vetor.png);
     background-repeat: no-repeat;
-    background-size: 100vw;
-    background-position: right bottom;
+    background-size: 100%;
+    background-position: right top;
 }
 

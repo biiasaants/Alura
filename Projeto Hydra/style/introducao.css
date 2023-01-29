@@ -1,0 +1,59 @@
+.introducao{
+    background-image: url(../imagens/vetor2.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3em;
+    width: 98vw;
+    gap: 50px;
+}
+
+.introducao__intro{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.introducao__titulo{
+    font-family: var(--fonte);
+    font-size: 36px;
+    color: var(--branco);
+    max-width: 450px;
+    text-align: left;
+}
+
+.introducao__seta{
+    width: 150px;
+    position: relative;
+    top: 25px;
+}
+
+.introducao__titulo::first-line{
+    font-weight: 700;
+}
+
+.introducao__p{
+    font-family: var(--fonte);
+    font-size: 16px;
+    color: var(--branco);
+    max-width: 450px;
+    line-height: 1.2em;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sobre__imagem{
+    max-width: 450px;
+}
+
+.sobre__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

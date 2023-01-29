@@ -22,7 +22,7 @@ body{
 main{
     background-image: url(../imagens/vetor.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
+    background-size: 100vw;
+    background-position: right bottom;
 }
 

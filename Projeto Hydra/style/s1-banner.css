@@ -47,7 +47,7 @@ strong{
     justify-content: space-evenly;
     align-items: center;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
     margin-top: 20px;
 }
 
@@ -59,15 +59,17 @@ strong{
 .informaçoes h2{
     font-family: var(--fonte);
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     color: var(--branco);
 }
 
 .informaçoes p{
     font-family: var(--fonte);
-    font-size: 16px;
+    font-size: 14px;
+    font-weight: 400;
     color: var(--branco);
     padding-top: 0.5em;
+    width: 150px;
 }
 
 .banner__separacao{

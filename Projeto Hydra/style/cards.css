@@ -2,8 +2,10 @@
     display: flex;
     gap:20px;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 3em;
     width: 98vw;
+    background-image: url(../imagens/vetor3.png);
+    background-repeat: no-repeat;
 }
 
 .cards__fundo{
@@ -50,6 +52,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    gap:20px;
 }
 
 .tech__titulo{
@@ -63,6 +67,45 @@
 
 }
 
-.tech__icone{
-    width: 10px;
+.empresas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 98vw;
+}
+
+.linhanumeros{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    background-image: url(../imagens/vetor4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5em;
+}
+
+.linhanumeros__div{
+    font-family: var(--fonte);
+    font-weight: 900;
+    font-size: 60px;
+    color: var(--roxoescuro);
+    padding: 80px;
+    background-image: url(../imagens/circulo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.linhatexto{
+    display: flex;
+    justify-content: center;
+}
+
+.linhatexto__p{
+    width: 12em;
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--branco);
+    text-align: center;
 }

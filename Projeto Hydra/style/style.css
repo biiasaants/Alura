@@ -5,6 +5,7 @@
 @import url(../style/introducao.css);
 @import url(../style/cards.css);
 @import url(../style/form.css);
+@import url(../style/footer.css);
 
 :root{
     --branco: #FFFFFF;

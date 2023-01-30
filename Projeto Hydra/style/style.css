@@ -3,6 +3,7 @@
 @import url(../style/header.css);
 @import url(../style/s1-banner.css);
 @import url(../style/introducao.css);
+@import url(../style/cards.css);
 
 :root{
     --branco: #FFFFFF;
@@ -14,6 +15,7 @@
     --gradientefundo: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
     --gradientetitulo: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
     --fonte: 'Montserrat', sans-serif;
+    --gradientecirculo: rgba(14, 14, 14, 0.32);
 }
 
 body{

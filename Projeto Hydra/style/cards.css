@@ -2,7 +2,7 @@
     display: flex;
     gap:20px;
     justify-content: center;
-    margin-top: 3em;
+    margin: 5em 0px;
     width: 98vw;
     background-image: url(../imagens/vetor3.png);
     background-repeat: no-repeat;
@@ -20,6 +20,7 @@
     font-family: var(--fonte);
     color: var(--branco);
     gap:15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);
 }
 
 .cards__img{
